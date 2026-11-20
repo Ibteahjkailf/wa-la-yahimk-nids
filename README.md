@@ -22,5 +22,4 @@ LSTM / Bi-LSTM component for attack-frequency forecasting.
 Five seeds (42–46), paired t-test / Wilcoxon with Holm adjustment,
 variant CICDDoS2019-merged (paired labels merged).
 
-## Team
-- [Student names]
+
