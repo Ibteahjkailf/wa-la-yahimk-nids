@@ -1,0 +1,2 @@
+Dataset,Windows,Window_size,Seq_len,Train_windows,Val_windows,Test_windows,Mean_attack_per_window,Max_attack_per_window,Start,End
+UNSW-NB15,1441,1min,10,998,216,217,222.95835876464844,3668.0,2015-01-22 11:49:00,2015-02-18 12:21:00

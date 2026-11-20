@@ -1,0 +1,44 @@
+Key,Value
+python,3.13.18
+numpy,2.4.6
+pandas,2.2.3
+xgb_device,cpu
+cpu_count,2
+sklearn,1.6.1
+xgboost,3.4.1
+imblearn,0.14.2
+shap,0.54.1
+DATASETS,"['CICIDS2017', 'UNSW-NB15', 'CICDDoS2019', 'CICDDoS2019-merged']"
+MAX_ROWS,200000
+MIN_KEEP_PER_CLASS,3000
+MIN_CLASS_TOTAL,30
+CHUNK,300000
+TEST_SIZE,0.2
+VAL_SIZE,0.2
+SEEDS,"[42, 43, 44, 45, 46]"
+VARY_SPLIT,False
+TUNE_ONCE,True
+COST_SENSITIVE,True
+MERGE_PAIRED_LABELS,True
+ALPHA,0.05
+CORR_THR,0.95
+IMP_FACTOR,0.5
+MIN_FEATURES,10
+SMOTE_TARGET_CAP,20000
+K_NEIGHBORS,5
+WEIGHT_GRID,"[np.float64(0.1), np.float64(0.2), np.float64(0.3), np.float64(0.4), np.float64(0.5), np.float64(0.6), np.float64(0.7), np.float64(0.8), np.float64(0.9)]"
+RUN_SHAP,True
+SHAP_N,1000
+RUN_TEMPORAL,True
+WINDOW,1min
+SEQ_LEN,10
+LSTM_UNITS,64
+DROPOUT,0.2
+LR,0.001
+BATCH,32
+EPOCHS,100
+PATIENCE,10
+TEMPORAL_SEEDS,"[42, 43, 44, 45, 46]"
+RESUME,True
+RF_GRID,"[{'n_estimators': 100, 'max_depth': None, 'min_samples_leaf': 1}, {'n_estimators': 200, 'max_depth': None, 'min_samples_leaf': 1}, {'n_estimators': 100, 'max_depth': 20, 'min_samples_leaf': 2}, {'n_estimators': 200, 'max_depth': 30, 'min_samples_leaf': 2}]"
+XGB_GRID,"[{'n_estimators': 150, 'learning_rate': 0.1, 'max_depth': 6, 'subsample': 0.8, 'colsample_bytree': 0.8}, {'n_estimators': 150, 'learning_rate': 0.1, 'max_depth': 10, 'subsample': 0.8, 'colsample_bytree': 0.8}, {'n_estimators': 300, 'learning_rate': 0.1, 'max_depth': 6, 'subsample': 0.8, 'colsample_bytree': 0.8}, {'n_estimators': 300, 'learning_rate': 0.05, 'max_depth': 10, 'subsample': 0.8, 'colsample_bytree': 0.8}]"

@@ -1,0 +1,5 @@
+Dataset,d0,constant_removed,corr_removed,d1,d2
+CICIDS2017,77.0,8.0,22.8,46.2,29.2
+UNSW-NB15,42.0,0.0,6.0,36.0,24.8
+CICDDoS2019,77.0,12.0,22.0,43.0,18.8
+CICDDoS2019-merged,77.0,12.0,22.4,42.6,20.0

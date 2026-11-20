@@ -1,0 +1,6 @@
+Note
+"Seeds used: [42, 43, 44, 45, 46]; tests are paired across seeds (n = 5)."
+"With VARY_SPLIT=False the test set is fixed, so seeds capture training randomness only (model, validation split, oversampling), not test-set sampling variability."
+"Paired t-test and Wilcoxon signed-rank are reported; with n=5 the smallest two-sided Wilcoxon p is 0.0625, so the t-test (and Holm-adjusted p) is the primary test."
+"Holm correction is applied within each (Dataset, Family, Metric) group. 'significant' means Holm-adjusted p < ALPHA."
+Hyper-parameters are fixed after the first seed when TUNE_ONCE=True.

@@ -1,0 +1,5 @@
+Dataset,Minority_classes
+CICIDS2017,"Bot, Infiltration, SSH-Patator, Web Attack Brute Force, Web Attack XSS"
+UNSW-NB15,"Analysis, Backdoor, Shellcode, Worms"
+CICDDoS2019,"DrDoS_LDAP, DrDoS_NetBIOS, LDAP, NetBIOS, Portmap, WebDDoS"
+CICDDoS2019-merged,"NetBIOS, Portmap, WebDDoS"

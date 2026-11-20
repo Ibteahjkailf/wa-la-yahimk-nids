@@ -1,0 +1,38 @@
+Dataset,Stage,Rows_before,Rows_after,Rows_removed,Note
+CICIDS2017,Raw records (all files),2830743,2830743,0,label counts from first pass
+CICIDS2017,Class-aware stratified sampling,2830743,215832,2614911,"target≈200,000; classes kept in full up to 3,000 rows"
+CICIDS2017,Remove identifier / leakage columns,215832,215832,0,0 cols: 
+CICIDS2017,Infinite values converted to NaN,215832,215832,0,323 infinite cells
+CICIDS2017,Remove rows with missing label,215832,215832,0,
+CICIDS2017,Remove rows with NaN/inf feature values,215832,215625,207,
+CICIDS2017,Remove exact duplicates,215625,204989,10636,applied on the retained sample
+CICIDS2017,Remove classes with < 30 records,204989,204957,32,"classes: Web Attack Sql Injection(21), Heartbleed(11)"
+CICIDS2017,Train/test split,204957,204957,0,"stratified 80/20 split (seed 42); train=163,965; test=40,992; features=77; categorical encoded=0"
+UNSW-NB15,Raw records (all files),257673,257673,0,label counts from first pass
+UNSW-NB15,Class-aware stratified sampling,257673,201346,56327,"target≈200,000; classes kept in full up to 3,000 rows"
+UNSW-NB15,Remove identifier / leakage columns,201346,201346,0,"2 cols: id, label"
+UNSW-NB15,Infinite values converted to NaN,201346,201346,0,0 infinite cells
+UNSW-NB15,Remove rows with missing label,201346,201346,0,
+UNSW-NB15,Remove rows with NaN/inf feature values,201346,201346,0,
+UNSW-NB15,Remove exact duplicates,201346,131021,70325,applied on the retained sample
+UNSW-NB15,Remove classes with < 30 records,131021,131021,0,classes: none
+UNSW-NB15,Train/test split,131021,131021,0,"predefined training/testing sets retained; train=45,083; test=85,938; features=42; categorical encoded=3"
+CICDDoS2019,Raw records (all files),431371,431371,0,label counts from first pass
+CICDDoS2019,Class-aware stratified sampling,431371,205859,225512,"target≈200,000; classes kept in full up to 3,000 rows"
+CICDDoS2019,Remove identifier / leakage columns,205859,205859,0,0 cols: 
+CICDDoS2019,Infinite values converted to NaN,205859,205859,0,0 infinite cells
+CICDDoS2019,Remove rows with missing label,205859,205859,0,
+CICDDoS2019,Remove rows with NaN/inf feature values,205859,205859,0,
+CICDDoS2019,Remove exact duplicates,205859,204372,1487,applied on the retained sample
+CICDDoS2019,Remove classes with < 30 records,204372,204372,0,classes: none
+CICDDoS2019,Train/test split,204372,204372,0,"stratified 80/20 split (seed 42); train=163,497; test=40,875; features=77; categorical encoded=0"
+CICDDoS2019-merged,Raw records (all files),431371,431371,0,label counts from first pass
+CICDDoS2019-merged,Class-aware stratified sampling,431371,205395,225976,"target≈200,000; classes kept in full up to 3,000 rows"
+CICDDoS2019-merged,Remove identifier / leakage columns,205395,205395,0,0 cols: 
+CICDDoS2019-merged,Infinite values converted to NaN,205395,205395,0,0 infinite cells
+CICDDoS2019-merged,Remove rows with missing label,205395,205395,0,
+CICDDoS2019-merged,Remove rows with NaN/inf feature values,205395,205395,0,
+CICDDoS2019-merged,Remove exact duplicates,205395,202510,2885,applied on the retained sample
+CICDDoS2019-merged,Remove classes with < 30 records,202510,202510,0,classes: none
+CICDDoS2019-merged,Merge paired labels (DrDoS_X + X),202510,202510,0,13 classes after merging
+CICDDoS2019-merged,Train/test split,202510,202510,0,"stratified 80/20 split (seed 42); train=162,008; test=40,502; features=77; categorical encoded=0"

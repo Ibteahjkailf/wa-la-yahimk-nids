@@ -1,0 +1,5 @@
+Dataset,d1_mean,d1_std,d2_mean,d2_std
+CICIDS2017,46.2,1.1,29.2,1.64
+UNSW-NB15,36.0,1.22,24.8,1.64
+CICDDoS2019,43.0,0.0,18.8,0.84
+CICDDoS2019-merged,42.6,0.55,20.0,0.71

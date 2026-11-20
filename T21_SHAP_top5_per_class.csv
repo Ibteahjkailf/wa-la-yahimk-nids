@@ -1,0 +1,266 @@
+Dataset,Class,Rank,Feature,Mean_abs_SHAP
+CICIDS2017,BENIGN,1,Destination Port,1.1703697
+CICIDS2017,BENIGN,2,Init_Win_bytes_forward,0.49785757
+CICIDS2017,BENIGN,3,Fwd IAT Min,0.40317878
+CICIDS2017,BENIGN,4,Init_Win_bytes_backward,0.3457899
+CICIDS2017,BENIGN,5,Bwd Packet Length Min,0.33610296
+CICIDS2017,Bot,1,Destination Port,2.9615905
+CICIDS2017,Bot,2,Init_Win_bytes_backward,0.52288526
+CICIDS2017,Bot,3,Init_Win_bytes_forward,0.51956517
+CICIDS2017,Bot,4,Bwd Packets/s,0.30485713
+CICIDS2017,Bot,5,Flow Bytes/s,0.1753775
+CICIDS2017,DDoS,1,act_data_pkt_fwd,1.1859004
+CICIDS2017,DDoS,2,Init_Win_bytes_forward,0.8866605
+CICIDS2017,DDoS,3,Fwd Packet Length Max,0.8481145
+CICIDS2017,DDoS,4,min_seg_size_forward,0.7551922
+CICIDS2017,DDoS,5,Init_Win_bytes_backward,0.6146337
+CICIDS2017,DoS GoldenEye,1,Init_Win_bytes_forward,0.9765302
+CICIDS2017,DoS GoldenEye,2,Init_Win_bytes_backward,0.74875224
+CICIDS2017,DoS GoldenEye,3,Flow IAT Max,0.62491757
+CICIDS2017,DoS GoldenEye,4,min_seg_size_forward,0.61064255
+CICIDS2017,DoS GoldenEye,5,Bwd Packet Length Max,0.5119189
+CICIDS2017,DoS Hulk,1,Init_Win_bytes_forward,1.1927402
+CICIDS2017,DoS Hulk,2,Packet Length Variance,0.7190453
+CICIDS2017,DoS Hulk,3,Init_Win_bytes_backward,0.71676034
+CICIDS2017,DoS Hulk,4,Fwd IAT Std,0.5899833
+CICIDS2017,DoS Hulk,5,Destination Port,0.53999346
+CICIDS2017,DoS Slowhttptest,1,Flow IAT Mean,0.85712653
+CICIDS2017,DoS Slowhttptest,2,Destination Port,0.6176554
+CICIDS2017,DoS Slowhttptest,3,min_seg_size_forward,0.5403626
+CICIDS2017,DoS Slowhttptest,4,Flow IAT Min,0.4776039
+CICIDS2017,DoS Slowhttptest,5,Init_Win_bytes_backward,0.4460484
+CICIDS2017,DoS slowloris,1,min_seg_size_forward,0.66383016
+CICIDS2017,DoS slowloris,2,Bwd Packets/s,0.6305529
+CICIDS2017,DoS slowloris,3,Bwd Packet Length Max,0.55319464
+CICIDS2017,DoS slowloris,4,Destination Port,0.53263223
+CICIDS2017,DoS slowloris,5,Flow IAT Min,0.38442174
+CICIDS2017,FTP-Patator,1,Destination Port,3.225863
+CICIDS2017,FTP-Patator,2,min_seg_size_forward,0.32179192
+CICIDS2017,FTP-Patator,3,Init_Win_bytes_forward,0.2803084
+CICIDS2017,FTP-Patator,4,Packet Length Mean,0.26342484
+CICIDS2017,FTP-Patator,5,Fwd Packet Length Max,0.21381697
+CICIDS2017,Infiltration,1,Destination Port,2.6048157
+CICIDS2017,Infiltration,2,min_seg_size_forward,0.75621575
+CICIDS2017,Infiltration,3,Flow Duration,0.31263918
+CICIDS2017,Infiltration,4,Fwd IAT Min,0.23758183
+CICIDS2017,Infiltration,5,Bwd Packets/s,0.2357779
+CICIDS2017,PortScan,1,Bwd Packets/s,1.0210708
+CICIDS2017,PortScan,2,Total Length of Fwd Packets,0.98424137
+CICIDS2017,PortScan,3,Packet Length Mean,0.7971377
+CICIDS2017,PortScan,4,Flow Bytes/s,0.5581102
+CICIDS2017,PortScan,5,PSH Flag Count,0.54527575
+CICIDS2017,SSH-Patator,1,Destination Port,3.3017607
+CICIDS2017,SSH-Patator,2,Init_Win_bytes_backward,0.593883
+CICIDS2017,SSH-Patator,3,Fwd Packet Length Max,0.31185165
+CICIDS2017,SSH-Patator,4,Init_Win_bytes_forward,0.21803805
+CICIDS2017,SSH-Patator,5,Fwd IAT Min,0.21385247
+CICIDS2017,Web Attack Brute Force,1,Init_Win_bytes_backward,1.6398306
+CICIDS2017,Web Attack Brute Force,2,min_seg_size_forward,0.370302
+CICIDS2017,Web Attack Brute Force,3,Fwd IAT Min,0.30700666
+CICIDS2017,Web Attack Brute Force,4,Flow IAT Min,0.273655
+CICIDS2017,Web Attack Brute Force,5,Init_Win_bytes_forward,0.24391201
+CICIDS2017,Web Attack XSS,1,Fwd IAT Min,1.1397157
+CICIDS2017,Web Attack XSS,2,Init_Win_bytes_backward,1.0104561
+CICIDS2017,Web Attack XSS,3,Flow IAT Min,0.32232583
+CICIDS2017,Web Attack XSS,4,min_seg_size_forward,0.2643091
+CICIDS2017,Web Attack XSS,5,Init_Win_bytes_forward,0.17882761
+UNSW-NB15,Analysis,1,smean,0.8342828
+UNSW-NB15,Analysis,2,sbytes,0.7641956
+UNSW-NB15,Analysis,3,sload,0.5405563
+UNSW-NB15,Analysis,4,dmean,0.365111
+UNSW-NB15,Analysis,5,ct_srv_dst,0.34701267
+UNSW-NB15,Backdoor,1,smean,0.53406376
+UNSW-NB15,Backdoor,2,ct_dst_sport_ltm,0.53044456
+UNSW-NB15,Backdoor,3,sbytes,0.4824214
+UNSW-NB15,Backdoor,4,ct_dst_src_ltm,0.34666032
+UNSW-NB15,Backdoor,5,service,0.2542618
+UNSW-NB15,DoS,1,smean,0.36641237
+UNSW-NB15,DoS,2,ct_srv_dst,0.34636518
+UNSW-NB15,DoS,3,sbytes,0.29123774
+UNSW-NB15,DoS,4,ct_dst_src_ltm,0.28006524
+UNSW-NB15,DoS,5,sttl,0.267989
+UNSW-NB15,Exploits,1,smean,0.419262
+UNSW-NB15,Exploits,2,ct_srv_dst,0.41197637
+UNSW-NB15,Exploits,3,sttl,0.35065314
+UNSW-NB15,Exploits,4,sbytes,0.32957578
+UNSW-NB15,Exploits,5,dttl,0.23325278
+UNSW-NB15,Fuzzers,1,sttl,1.0057954
+UNSW-NB15,Fuzzers,2,ct_srv_dst,0.63814604
+UNSW-NB15,Fuzzers,3,ct_srv_src,0.44737992
+UNSW-NB15,Fuzzers,4,ct_dst_src_ltm,0.3834424
+UNSW-NB15,Fuzzers,5,sbytes,0.2874758
+UNSW-NB15,Generic,1,sbytes,1.166304
+UNSW-NB15,Generic,2,service,0.45529
+UNSW-NB15,Generic,3,smean,0.355663
+UNSW-NB15,Generic,4,dmean,0.31903103
+UNSW-NB15,Generic,5,ct_dst_src_ltm,0.2455392
+UNSW-NB15,Normal,1,sttl,0.85560435
+UNSW-NB15,Normal,2,ct_dst_src_ltm,0.7338719
+UNSW-NB15,Normal,3,ct_dst_sport_ltm,0.61283207
+UNSW-NB15,Normal,4,sbytes,0.463762
+UNSW-NB15,Normal,5,smean,0.39094883
+UNSW-NB15,Reconnaissance,1,smean,0.90411764
+UNSW-NB15,Reconnaissance,2,dmean,0.79515755
+UNSW-NB15,Reconnaissance,3,sbytes,0.59824204
+UNSW-NB15,Reconnaissance,4,ct_srv_dst,0.35985804
+UNSW-NB15,Reconnaissance,5,sttl,0.30893883
+UNSW-NB15,Shellcode,1,service,0.9164522
+UNSW-NB15,Shellcode,2,dmean,0.86105895
+UNSW-NB15,Shellcode,3,ct_dst_src_ltm,0.67350924
+UNSW-NB15,Shellcode,4,sbytes,0.61250997
+UNSW-NB15,Shellcode,5,ct_srv_dst,0.35569364
+UNSW-NB15,Worms,1,sbytes,1.0700114
+UNSW-NB15,Worms,2,smean,0.9767933
+UNSW-NB15,Worms,3,ct_dst_src_ltm,0.78003347
+UNSW-NB15,Worms,4,service,0.41741714
+UNSW-NB15,Worms,5,sttl,0.3588961
+CICDDoS2019,BENIGN,1,Fwd Packet Length Min,3.5526538
+CICDDoS2019,BENIGN,2,ACK Flag Count,0.59208006
+CICDDoS2019,BENIGN,3,Bwd Packets/s,0.57933414
+CICDDoS2019,BENIGN,4,Init Fwd Win Bytes,0.37503517
+CICDDoS2019,BENIGN,5,Fwd Packet Length Max,0.3362893
+CICDDoS2019,DrDoS_DNS,1,Flow IAT Std,1.3032894
+CICDDoS2019,DrDoS_DNS,2,Flow Bytes/s,0.68521905
+CICDDoS2019,DrDoS_DNS,3,Fwd Packet Length Min,0.66609704
+CICDDoS2019,DrDoS_DNS,4,Fwd Packet Length Max,0.2665245
+CICDDoS2019,DrDoS_DNS,5,Packet Length Max,0.23389271
+CICDDoS2019,DrDoS_LDAP,1,Fwd Packet Length Min,2.3237023
+CICDDoS2019,DrDoS_LDAP,2,Fwd Packet Length Max,0.64903224
+CICDDoS2019,DrDoS_LDAP,3,Fwd Packets Length Total,0.37717247
+CICDDoS2019,DrDoS_LDAP,4,Flow Bytes/s,0.34086496
+CICDDoS2019,DrDoS_LDAP,5,Flow Duration,0.22722553
+CICDDoS2019,DrDoS_MSSQL,1,Fwd Packet Length Max,1.1563286
+CICDDoS2019,DrDoS_MSSQL,2,Fwd Packet Length Min,0.9928811
+CICDDoS2019,DrDoS_MSSQL,3,Flow Duration,0.8350264
+CICDDoS2019,DrDoS_MSSQL,4,Flow IAT Std,0.7104333
+CICDDoS2019,DrDoS_MSSQL,5,Fwd Packets Length Total,0.36486712
+CICDDoS2019,DrDoS_NTP,1,Fwd Packets Length Total,1.2650584
+CICDDoS2019,DrDoS_NTP,2,Fwd Packet Length Max,1.2548838
+CICDDoS2019,DrDoS_NTP,3,Fwd Packet Length Min,0.95768946
+CICDDoS2019,DrDoS_NTP,4,Packet Length Max,0.51276505
+CICDDoS2019,DrDoS_NTP,5,Total Fwd Packets,0.29635823
+CICDDoS2019,DrDoS_NetBIOS,1,Flow Duration,1.0666138
+CICDDoS2019,DrDoS_NetBIOS,2,Fwd Packets Length Total,0.65372276
+CICDDoS2019,DrDoS_NetBIOS,3,Flow IAT Std,0.60662264
+CICDDoS2019,DrDoS_NetBIOS,4,Packet Length Max,0.59149796
+CICDDoS2019,DrDoS_NetBIOS,5,Fwd Header Length,0.35796696
+CICDDoS2019,DrDoS_SNMP,1,Fwd Packet Length Min,1.1993616
+CICDDoS2019,DrDoS_SNMP,2,Flow IAT Std,0.7521684
+CICDDoS2019,DrDoS_SNMP,3,Flow Duration,0.5264012
+CICDDoS2019,DrDoS_SNMP,4,Fwd Packets Length Total,0.43605366
+CICDDoS2019,DrDoS_SNMP,5,Flow IAT Mean,0.4069079
+CICDDoS2019,DrDoS_UDP,1,Packet Length Max,1.3501934
+CICDDoS2019,DrDoS_UDP,2,Fwd Packet Length Min,0.98932713
+CICDDoS2019,DrDoS_UDP,3,Fwd Packet Length Max,0.58646137
+CICDDoS2019,DrDoS_UDP,4,Fwd Packets Length Total,0.31279597
+CICDDoS2019,DrDoS_UDP,5,Fwd Seg Size Min,0.3055158
+CICDDoS2019,LDAP,1,Fwd Packet Length Min,2.2637296
+CICDDoS2019,LDAP,2,Fwd Packets Length Total,0.5059184
+CICDDoS2019,LDAP,3,Flow Bytes/s,0.36345577
+CICDDoS2019,LDAP,4,Fwd Packet Length Max,0.36343616
+CICDDoS2019,LDAP,5,Flow IAT Max,0.23359132
+CICDDoS2019,MSSQL,1,Fwd Packet Length Min,1.1618953
+CICDDoS2019,MSSQL,2,Flow Duration,0.9446832
+CICDDoS2019,MSSQL,3,Fwd Packet Length Max,0.9007539
+CICDDoS2019,MSSQL,4,Fwd Packets Length Total,0.53433394
+CICDDoS2019,MSSQL,5,Flow IAT Std,0.4659682
+CICDDoS2019,NetBIOS,1,Packet Length Max,1.3683865
+CICDDoS2019,NetBIOS,2,Fwd Packet Length Min,1.0346837
+CICDDoS2019,NetBIOS,3,Fwd Packet Length Max,0.6377279
+CICDDoS2019,NetBIOS,4,Flow IAT Std,0.5017831
+CICDDoS2019,NetBIOS,5,Flow Duration,0.42077488
+CICDDoS2019,Portmap,1,Packet Length Max,0.7522625
+CICDDoS2019,Portmap,2,Fwd Packets Length Total,0.7305282
+CICDDoS2019,Portmap,3,Flow Duration,0.5447201
+CICDDoS2019,Portmap,4,Fwd Packet Length Min,0.5191581
+CICDDoS2019,Portmap,5,Fwd Seg Size Min,0.39351505
+CICDDoS2019,Syn,1,ACK Flag Count,1.6162405
+CICDDoS2019,Syn,2,Init Fwd Win Bytes,1.2315252
+CICDDoS2019,Syn,3,Protocol,0.7710354
+CICDDoS2019,Syn,4,Fwd Packets Length Total,0.6619899
+CICDDoS2019,Syn,5,Fwd Seg Size Min,0.42475417
+CICDDoS2019,TFTP,1,Fwd Packet Length Min,2.1832442
+CICDDoS2019,TFTP,2,Flow Bytes/s,0.8875589
+CICDDoS2019,TFTP,3,Packet Length Max,0.77931875
+CICDDoS2019,TFTP,4,Fwd Packet Length Max,0.70022666
+CICDDoS2019,TFTP,5,Flow Duration,0.51221454
+CICDDoS2019,UDP,1,Fwd Packet Length Min,1.8664807
+CICDDoS2019,UDP,2,Packet Length Max,1.2497172
+CICDDoS2019,UDP,3,Fwd Packet Length Max,0.8191538
+CICDDoS2019,UDP,4,Fwd Packets Length Total,0.24974376
+CICDDoS2019,UDP,5,Flow Bytes/s,0.19322756
+CICDDoS2019,UDP-lag,1,Packet Length Max,1.018512
+CICDDoS2019,UDP-lag,2,Fwd Packet Length Max,0.570498
+CICDDoS2019,UDP-lag,3,Fwd Packet Length Min,0.40037835
+CICDDoS2019,UDP-lag,4,ACK Flag Count,0.35136932
+CICDDoS2019,UDP-lag,5,Flow Bytes/s,0.3249526
+CICDDoS2019,WebDDoS,1,Init Fwd Win Bytes,1.037193
+CICDDoS2019,WebDDoS,2,Bwd Packets/s,0.68048507
+CICDDoS2019,WebDDoS,3,Fwd Seg Size Min,0.63421905
+CICDDoS2019,WebDDoS,4,Flow Bytes/s,0.4749688
+CICDDoS2019,WebDDoS,5,Flow Duration,0.4379241
+CICDDoS2019-merged,BENIGN,1,Fwd Packet Length Min,3.264126
+CICDDoS2019-merged,BENIGN,2,ACK Flag Count,0.7280982
+CICDDoS2019-merged,BENIGN,3,Bwd Packets/s,0.6877543
+CICDDoS2019-merged,BENIGN,4,Init Fwd Win Bytes,0.41942823
+CICDDoS2019-merged,BENIGN,5,Packet Length Max,0.33659306
+CICDDoS2019-merged,DNS,1,Flow IAT Std,1.4392205
+CICDDoS2019-merged,DNS,2,Fwd Packet Length Min,0.7843454
+CICDDoS2019-merged,DNS,3,Flow Bytes/s,0.570032
+CICDDoS2019-merged,DNS,4,Packet Length Max,0.19957425
+CICDDoS2019-merged,DNS,5,Flow Duration,0.19399302
+CICDDoS2019-merged,LDAP,1,Fwd Packet Length Min,2.1993716
+CICDDoS2019-merged,LDAP,2,Fwd Packet Length Max,0.8688869
+CICDDoS2019-merged,LDAP,3,Fwd Packets Length Total,0.37953386
+CICDDoS2019-merged,LDAP,4,Flow Bytes/s,0.29691413
+CICDDoS2019-merged,LDAP,5,Packet Length Max,0.23480085
+CICDDoS2019-merged,MSSQL,1,Flow Duration,0.99233824
+CICDDoS2019-merged,MSSQL,2,Fwd Packet Length Min,0.9059089
+CICDDoS2019-merged,MSSQL,3,Fwd Packet Length Max,0.7895028
+CICDDoS2019-merged,MSSQL,4,Flow IAT Std,0.6753963
+CICDDoS2019-merged,MSSQL,5,Fwd Packets Length Total,0.4936337
+CICDDoS2019-merged,NTP,1,Packet Length Max,1.3191127
+CICDDoS2019-merged,NTP,2,Fwd Packet Length Min,1.129307
+CICDDoS2019-merged,NTP,3,Fwd Packets Length Total,1.0103264
+CICDDoS2019-merged,NTP,4,Fwd Packet Length Max,0.6191375
+CICDDoS2019-merged,NTP,5,Total Fwd Packets,0.35551327
+CICDDoS2019-merged,NetBIOS,1,Flow Duration,0.9107057
+CICDDoS2019-merged,NetBIOS,2,Fwd Packets Length Total,0.6321583
+CICDDoS2019-merged,NetBIOS,3,Packet Length Max,0.62976843
+CICDDoS2019-merged,NetBIOS,4,Flow IAT Std,0.43305507
+CICDDoS2019-merged,NetBIOS,5,Fwd Packet Length Min,0.30026308
+CICDDoS2019-merged,Portmap,1,Fwd Packets Length Total,0.59828395
+CICDDoS2019-merged,Portmap,2,Fwd Packet Length Max,0.58460337
+CICDDoS2019-merged,Portmap,3,Packet Length Max,0.50678724
+CICDDoS2019-merged,Portmap,4,Flow IAT Std,0.49734434
+CICDDoS2019-merged,Portmap,5,Flow Duration,0.48309684
+CICDDoS2019-merged,SNMP,1,Flow Duration,1.0973641
+CICDDoS2019-merged,SNMP,2,Fwd Packet Length Min,0.7382373
+CICDDoS2019-merged,SNMP,3,Flow IAT Std,0.62671757
+CICDDoS2019-merged,SNMP,4,Flow Bytes/s,0.42320108
+CICDDoS2019-merged,SNMP,5,Packet Length Max,0.42238453
+CICDDoS2019-merged,Syn,1,ACK Flag Count,1.9080405
+CICDDoS2019-merged,Syn,2,Init Fwd Win Bytes,1.0514618
+CICDDoS2019-merged,Syn,3,Protocol,0.7115077
+CICDDoS2019-merged,Syn,4,Fwd Packets Length Total,0.52158016
+CICDDoS2019-merged,Syn,5,Fwd Packet Length Min,0.49293187
+CICDDoS2019-merged,TFTP,1,Fwd Packet Length Min,2.4216435
+CICDDoS2019-merged,TFTP,2,Flow Bytes/s,0.77466804
+CICDDoS2019-merged,TFTP,3,Packet Length Max,0.68666893
+CICDDoS2019-merged,TFTP,4,Fwd Packet Length Max,0.49095097
+CICDDoS2019-merged,TFTP,5,Flow Duration,0.38627228
+CICDDoS2019-merged,UDP,1,Fwd Packet Length Min,1.7392005
+CICDDoS2019-merged,UDP,2,Packet Length Max,1.3074282
+CICDDoS2019-merged,UDP,3,Fwd Packet Length Max,0.36998823
+CICDDoS2019-merged,UDP,4,Flow Bytes/s,0.2805813
+CICDDoS2019-merged,UDP,5,Fwd Header Length,0.21849643
+CICDDoS2019-merged,UDP-lag,1,Packet Length Max,1.5561132
+CICDDoS2019-merged,UDP-lag,2,Fwd Packet Length Max,0.46545377
+CICDDoS2019-merged,UDP-lag,3,Flow IAT Std,0.32713738
+CICDDoS2019-merged,UDP-lag,4,ACK Flag Count,0.2695006
+CICDDoS2019-merged,UDP-lag,5,Flow Bytes/s,0.19798239
+CICDDoS2019-merged,WebDDoS,1,Fwd Seg Size Min,0.8455955
+CICDDoS2019-merged,WebDDoS,2,Init Fwd Win Bytes,0.74755406
+CICDDoS2019-merged,WebDDoS,3,Flow Bytes/s,0.6368433
+CICDDoS2019-merged,WebDDoS,4,Bwd Packets/s,0.61738414
+CICDDoS2019-merged,WebDDoS,5,Flow Packets/s,0.3454445

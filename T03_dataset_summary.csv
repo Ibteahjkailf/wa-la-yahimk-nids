@@ -1,0 +1,5 @@
+Dataset,Train,Test,Features_after_preprocessing,Classes,Split
+CICIDS2017,163965,40992,77,13,stratified 80/20
+UNSW-NB15,45083,85938,42,10,predefined
+CICDDoS2019,163497,40875,77,17,stratified 80/20
+CICDDoS2019-merged,162008,40502,77,13,stratified 80/20

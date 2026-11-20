@@ -1,0 +1,4 @@
+Dataset,Model,MAE_mean,MAE_std,RMSE_mean,RMSE_std,Epochs_run_mean,Epochs_run_std,Train_time_s_mean,Train_time_s_std,Params_mean,Params_std
+UNSW-NB15,LSTM,124.3215,2.3128,269.612,2.7367,64.2,6.9065,22.6098,2.3219,16961.0,0.0
+UNSW-NB15,Bi-LSTM,137.7661,8.7366,276.3221,19.6319,51.8,17.6833,26.3653,7.6924,33921.0,0.0
+UNSW-NB15,Persistence (reference),140.8848,,313.431,,0.0,,0.0,,0.0,
